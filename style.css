@@ -53,14 +53,15 @@ article.media-post > footer ul {
   right: 0;
 }
 
+/* Ensure the modal is completely hidden when .hidden is applied */
+.hidden {
+  display: none;
+}
+
 #modal p {
   margin-bottom: 0;
 }
 
 .activated-heart {
   color: red;
-}
-
-.hidden {
-  visibility: hidden;
 }
